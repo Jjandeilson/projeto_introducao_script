@@ -84,7 +84,6 @@ const saveStundentData = (url, method) => {
       clearstudentTableRow();
       closeStudentModal();
       loadStudentTable();
-      envioReq = 1;
     })
     .catch(error => {
         closeStudentModal();
